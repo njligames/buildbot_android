@@ -28,6 +28,7 @@ import android.hardware.*;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ApplicationInfo;
+import android.content.res.AssetManager;
 
 import com.google.vrtoolkit.cardboard.HeadTransform;
 import com.google.vrtoolkit.cardboard.sensors.HeadTracker;
@@ -167,6 +168,9 @@ public class SDLActivity extends Activity {
             mBrokenLibraries = true;
             errorMsgBrokenLib = e.getMessage();
         }
+
+        AssetManager assetManager = getAssets();
+        SDLActivity.initAssetManager(assetManager);
 
         if (mBrokenLibraries)
         {
@@ -540,6 +544,7 @@ public class SDLActivity extends Activity {
                                          float m21, float m22, float m23, float m24,
                                          float m31, float m32, float m33, float m34,
                                          float m41, float m42, float m43, float m44);
+    public static native void initAssetManager(AssetManager assetManager);
 
     /**
      * This method is called by SDL using JNI.
