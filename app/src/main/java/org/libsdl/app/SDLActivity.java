@@ -170,7 +170,7 @@ public class SDLActivity extends Activity {
         }
 
         AssetManager assetManager = getAssets();
-        SDLActivity.initAssetManager(assetManager);
+//        SDLActivity.initAssetManager(assetManager);
 
         if (mBrokenLibraries)
         {

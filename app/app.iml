@@ -26,6 +26,9 @@
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/../res" />
       </configuration>
     </facet>
+    <facet type="Lua" name="Lua">
+      <configuration SdkName="Kahlua" />
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/build/intermediates/classes/debug" />
@@ -97,22 +100,16 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/build-info" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/cmake" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-classes" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-runtime-classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-verifier" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-apk" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-resources" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-main-apk-res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifest-checker" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
@@ -124,6 +121,15 @@
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
+    <content url="file://$MODULE_DIR$/../njligames-njlic_engine/.swig/lua/Android">
+      <sourceFolder url="file://$MODULE_DIR$/../njligames-njlic_engine/.swig/lua/Android" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../njligames-njlic_engine/bullet3">
+      <sourceFolder url="file://$MODULE_DIR$/../njligames-njlic_engine/bullet3" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../njligames-njlic_engine/glm">
+      <sourceFolder url="file://$MODULE_DIR$/../njligames-njlic_engine/glm" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/../njligames-njlic_engine/lua/exts">
       <sourceFolder url="file://$MODULE_DIR$/../njligames-njlic_engine/lua/exts" isTestSource="false" />
     </content>
@@ -132,6 +138,9 @@
     </content>
     <content url="file://$MODULE_DIR$/../njligames-njlic_engine/lua/src">
       <sourceFolder url="file://$MODULE_DIR$/../njligames-njlic_engine/lua/src" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../njligames-njlic_engine/minizip">
+      <sourceFolder url="file://$MODULE_DIR$/../njligames-njlic_engine/minizip" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../njligames-njlic_engine/njli">
       <sourceFolder url="file://$MODULE_DIR$/../njligames-njlic_engine/njli" isTestSource="false" />
@@ -199,8 +208,8 @@
     <content url="file://$MODULE_DIR$/../njligames-njlic_engine/njli/steering/behavior">
       <sourceFolder url="file://$MODULE_DIR$/../njligames-njlic_engine/njli/steering/behavior" isTestSource="false" />
     </content>
-    <content url="file://$MODULE_DIR$/../njligames-njlic_engine/swig/lua/Android">
-      <sourceFolder url="file://$MODULE_DIR$/../njligames-njlic_engine/swig/lua/Android" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/../njligames-njlic_engine/njli/steering/support">
+      <sourceFolder url="file://$MODULE_DIR$/../njligames-njlic_engine/njli/steering/support" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../res">
       <sourceFolder url="file://$MODULE_DIR$/../res" type="java-resource" />
